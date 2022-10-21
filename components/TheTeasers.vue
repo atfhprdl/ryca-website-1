@@ -17,7 +17,7 @@
                 <p class="font-medium"><a href="#"> بیشتر بخوانید </a></p>
                 </div>
                 <div class="box-txt">
-            <img class="logo" src="../assets/img/carvann-logo.png">
+            <img class="logo centerite" src="../assets/img/carvann-logo.png">
             <p class="font-black">
                 کاروان، اتوماسیون حمل و نقل بار</p>
             <p class="font-regular">
@@ -70,6 +70,15 @@ h3 {
 }
 .box-txt {
     text-align: center;
+    padding: 20px 15px;
+}
+
+.box-txt img {
+    background-color: rgb(66, 141, 252);
+    padding: 15px;
+    border-radius: 100px;
+    width: 30px;
+    height: auto;
 }
 p a {
     text-decoration: none;

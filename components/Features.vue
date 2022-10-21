@@ -19,18 +19,24 @@
                 <h4 class="font-bold doc">
                 کارشناسان ما در تیم رایکا آماده پاسخگویی به سوالات شما می باشند
                 </h4>
-                <div class="font-medium contact">
-                    <div>
-                        <!-- <p class="location">شاهرود- پردیس رشد و فناوری های نوین دانشگاه صنعتی</p> -->
-                        <img src="../assets/img/location.png">
+                <div class="font-medium row">
+                    <div class="col-lg-4">
+                        <div class="contact">
+                            <img src="../assets/img/location.png">
+                            <p class="location">شاهرود- پردیس رشد و فناوری های نوین دانشگاه صنعتی</p>
+                        </div>
                     </div>
-                    <div>
-                        <!-- <p class="email">support@ryca_team.com</p> -->
-                        <img src="../assets/img/email.png">
+                    <div class="col-lg-4">
+                        <div class="contact">
+                            <img src="../assets/img/email.png">
+                            <p class="email">support@ryca_team.com</p>
+                        </div>
                     </div>
-                    <div>
-                        <!-- <p class="call">۰۲۳-۲۲۰۴۷۸۸۵ - ۰۹۱۱۹۴۴۲۵۳۹</p> -->
-                        <img src="../assets/img/call.png">
+                    <div class="col-lg-4 boxs">
+                        <div class="contact">
+                            <img src="../assets/img/call.png">
+                            <p >۰۲۳-۲۲۰۴۷۸۸۵ - ۰۹۱۱۹۴۴۲۵۳۹</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -45,7 +51,7 @@ export default {
 </script>
 
 <style scoped>
-.txt-container{
+.txt-container {
     position: relative;
 }
 .circle1 {
@@ -57,19 +63,13 @@ export default {
     transform: rotate(180deg);
 }
 .contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: baseline;
-    align-content: center;
-    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
 }
-.contact div {
-    width: 290px;
-    height: 71px;
-    margin-right: 10px;
-    border-radius: 7px;
-    background-color: rgb(208, 237, 254);
+.boxs {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(198, 234, 253);
 }
 .jobs-vector {
     margin:0px auto;
@@ -96,7 +96,6 @@ export default {
     width: 100%;
     left: 0px;
     background-color: rgb(198, 234, 253);
-    height: 200px;
 }
 img {
     margin: 20px;
